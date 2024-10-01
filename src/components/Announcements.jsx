@@ -12,7 +12,7 @@ export default function Announcements(){
                 </thead>
                 <tbody>
                     <tr className="border-dark">
-                        <th scope="row">Math Exam</th>
+                        <th scope="row">Important information for Math Exam</th>
                         <td><AnnouncementsDetails /></td>
                     </tr>
                     <tr className="border-dark">
@@ -37,7 +37,7 @@ function AnnouncementsDetails(){
                 <div className="modal-dialog modal-lg">
                     <div className="modal-content mt-5">
                     <div className="modal-header">
-                        <h5 className="modal-title" id="exampleModalLabel">Announcement Details for Math Exam</h5>
+                        <h5 className="modal-title" id="exampleModalLabel">Important information for Math Exam</h5>
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
