@@ -2,20 +2,20 @@ export default function Announcements(){
     return(
         <>
             <h3 className="h3 mt-5 text-center">Recent announcements</h3>
-            <div className="p-4 w-50 mx-auto rounded border border-primary border-2">
+            <div className="p-4 w-50 mx-auto rounded border border-dark border-2" style={{backgroundColor: 'white'}}>
             <table className="table table-striped table-hover mx-auto">
                 <thead>
-                    <tr className="border-primary">
+                    <tr className="border-dark">
                         <th scope="col">Title</th>
                         <th scope="col">Action</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr className="border-primary">
+                    <tr className="border-dark">
                         <th scope="row">Math Exam</th>
                         <td><AnnouncementsDetails /></td>
                     </tr>
-                    <tr className="border-primary">
+                    <tr className="border-dark">
                         <th scope="row">Bringing Lab Coat</th>
                         <td><AnnouncementsDetails /></td>
                     </tr>
@@ -34,8 +34,8 @@ function AnnouncementsDetails(){
             View details
             </button>
             <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div className="modal-dialog">
-                    <div className="modal-content">
+                <div className="modal-dialog modal-lg">
+                    <div className="modal-content mt-5">
                     <div className="modal-header">
                         <h5 className="modal-title" id="exampleModalLabel">Announcement Details for Math Exam</h5>
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -63,7 +63,7 @@ function AnnouncementsDetails(){
                         </p>
                     </div>
                     <div className="modal-footer">
-                        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" className="btn btn-success" data-bs-dismiss="modal">Close</button>
                     </div>
                     </div>
                 </div>
