@@ -1,10 +1,10 @@
-export default function Links({type,children}){
+export default function Links({type, onSubmit, children}){
     return(
         <>  
             <div className="card border border-2 border-dark" style={{ padding: '20px'}}>
             <div className="card-body">
                 {children}
-                <button className="btn btn-success d-block mx-auto">{type}</button>
+                <button className="btn btn-success d-block mx-auto" onClick={onSubmit}>{type}</button>
             </div>
             </div>
         </>
