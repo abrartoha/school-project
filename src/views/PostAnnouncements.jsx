@@ -44,7 +44,7 @@ export default function PostAnnouncements() {
     };
 
     return (
-        <div className='ps-5'>
+        <div className='ps-5 mx-auto bg-light rounded-bottom'>
             <h3 className="h3 mt-5">Announcements</h3>
             <div className="card w-25" style={{ height: '20rem', overflowY: 'auto' }}>
                 <div className="card-body">
