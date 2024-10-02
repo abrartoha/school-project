@@ -18,10 +18,10 @@ export default function Dashboard(){
         }
       }
     return(
-        <> 
+        <div className="mx-auto bg-light rounded-bottom"> 
             <UserDetails /> 
             <Announcements />
-            <div className="container w-75 mx-auto" style={{marginTop: '100px'}}>
+            <div className="container w-100 mx-auto" style={{marginTop: '100px'}}>
                 <div className="row ">
                 <div className="col">
                     <Links type="Update Grades" onSubmit={()=>handleRouting("Grades")}>
@@ -57,6 +57,6 @@ export default function Dashboard(){
                 </div>
                 </div>
             </div>            
-        </>
+          </div>
     );
 }

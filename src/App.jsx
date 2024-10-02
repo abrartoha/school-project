@@ -13,6 +13,7 @@ export default function App(){
   
   return(
     <>
+    <div id="container" style={{padding: '20px'}}>
       <Navbar />
       <Routes>
         <Route path="/" element={<Dashboard />} />
@@ -21,6 +22,7 @@ export default function App(){
         <Route path="/announcements" element={<PostAnnouncements />} />
         <Route path="/attendance" element={<TakeAttendance />} />
       </Routes>
+      </div>
       
       
     </>

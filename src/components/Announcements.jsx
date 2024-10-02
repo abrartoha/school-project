@@ -2,20 +2,20 @@ export default function Announcements(){
     return(
         <>
             <h3 className="h3 mt-5 text-center">Recent announcements</h3>
-            <div className="p-4 w-50 mx-auto rounded border border-dark border-2" style={{backgroundColor: 'white'}}>
+            <div className="p-4 w-75 mx-auto rounded border border-primary border-2" style={{backgroundColor: 'white'}}>
             <table className="table table-striped table-hover mx-auto">
                 <thead>
-                    <tr className="border-dark">
+                    <tr className="border-primary">
                         <th scope="col">Title</th>
                         <th scope="col">Action</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr className="border-dark">
+                    <tr className="border-primary">
                         <th scope="row">Important information for Math Exam</th>
                         <td><AnnouncementsDetails /></td>
                     </tr>
-                    <tr className="border-dark">
+                    <tr className="border-primary">
                         <th scope="row">Bringing Lab Coat</th>
                         <td><AnnouncementsDetails /></td>
                     </tr>
